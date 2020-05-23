@@ -45,7 +45,7 @@ void get_icon()
     while (client.available()) 
     {
       icon[icon_len] = (byte)client.read();
-      Serial.println(String(icon[icon_len], HEX));
+      //Serial.println(String(icon[icon_len], HEX));
       icon_len ++;
       if(!client.available())
       {
