@@ -55,6 +55,6 @@ void get_icon()
     client.stop();
     
     Serial.println("Icon download complete. len = " + (String)icon_len);
-    lcd.drawPng(icon, icon_len, 0, 20, 72, 72 ,0, 0, 1.0);
+    lcd.drawPng(icon, icon_len, 100, 50, 144, 144 ,0, 0, 2.0);
   }
 }
